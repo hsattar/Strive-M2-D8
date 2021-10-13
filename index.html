@@ -233,7 +233,7 @@
     </div>
 
     <h2 class="my-5">Exercise 4</h2>
-    <div class="Ex4-Parent d-flex">
+    <div class="Ex4-Parent d-lg-flex">
         <div class="blog-post">
             <h3 >Page Heading <span class="secondary-text">Secondary Text</span></h3>
             <div class="card mb-3">
@@ -263,16 +263,27 @@
                 </div>
                 <div class="card-footer text-left">Posted On January 1, 2020 By <a href="">Admin</a></div>
             </div>
+
+            <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#">Older</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Newer</a>
+                  </li>
+                </ul>
+            </nav>
               
         </div>
         <div class="side-bar">
             <div class="card border-primary mb-3">
                 <div class="card-header">Find in my blog</div>
                 <div class="card-body text-primary">
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 my-lg-0 d-flex justify-content-center">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                    </form>
                 </div>
               </div>
               <div class="card border-primary mb-3">
@@ -299,7 +310,38 @@
               </div>  
         </div>
     </div>
+
     <h2 class="my-5">Exercise 5</h2>
+
+    <div class="row border-top mb-5 pt-5">
+
+        <div class="col-12 col-sm-6 col-md-4 text-left">
+            <h6>Features</h6>
+            <p class="text-muted my-1">Cool Stuff</p>
+            <p class="text-muted my-1">Random Feature</p>
+            <p class="text-muted my-1">Team Feature</p>
+            <p class="text-muted my-1">Stuff For Developers</p>
+            <p class="text-muted my-1">Another One</p>
+            <p class="text-muted my-1">Last Time</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-left">
+            <h6>Recources</h6>
+            <p class="text-muted my-1">Resource</p>
+            <p class="text-muted my-1">Resource Name</p>
+            <p class="text-muted my-1">Another Resource</p>
+            <p class="text-muted my-1">Final Resource</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-left">
+            <h6>About</h6>
+            <p class="text-muted my-1">Teams</p>
+            <p class="text-muted my-1">Locations</p>
+            <p class="text-muted my-1">Privacy</p>
+            <p class="text-muted my-1">Terms</p>
+        </div>
+
+    </div>
 
 </div>
 

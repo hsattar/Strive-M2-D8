@@ -61,12 +61,15 @@ h2.card-title {
   line-height: 1.5;
 }
 .Ex4-Parent {
-  column-gap: 40px; 
+  column-gap: 40px;
 }
 .secondary-text {
   font-weight: normal;
   font-size: 20px;
 }
-.side-bar {
-  max-width: 50vh;
+
+@media screen and (min-width: 992px) {
+  .side-bar {
+    max-width: 50vh;
+  }
 }

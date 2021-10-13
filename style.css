@@ -60,3 +60,13 @@ h2.card-title {
 .card-text {
   line-height: 1.5;
 }
+.Ex4-Parent {
+  column-gap: 40px; 
+}
+.secondary-text {
+  font-weight: normal;
+  font-size: 20px;
+}
+.side-bar {
+  max-width: 50vh;
+}
